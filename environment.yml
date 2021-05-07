@@ -1,0 +1,12 @@
+name: mri-segmentation
+dependencies:
+  - python=3.6
+  - jupyterlab
+  - pip
+  - pip:
+    - matplotlib==3.3.2
+    - numpy==1.19.2
+    - pytorch==1.7.0
+    - scikit-image==0.17.2
+    - torchvision==0.8.0
+    - tqdm==4.56.0
